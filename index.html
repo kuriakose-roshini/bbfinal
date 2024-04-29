@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Buddy</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/x-icon" href="logo.png">
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<header>
+		<h1>Welcome to Book Buddy</h1>
+	</header>
+	<div class="main">
+		<nav>
+			<ul>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="repo.html">Reports</a></li>
+			</ul>
+	    </nav>   
+		    <h2 style="padding-left: 30px;">Find your favourite book    
+			<input id="searchbar" name="search_query" onkeyup="search_book()" placeholder="Search books..." class="search">
+			<button type="submit">Search</button></h2>
+		<div class="container">			
+	       <ul id='list'>
+              <li class="books">Artificial Intelligence</li>
+              <li class="books">Automata Theory</li>
+              <li class="books">Computer vision</li>
+              <li class="books">Introduction to Algorithms</li>
+              <li class="books">Data Structures</li>
+              <li class="books">API</li>
+          </ul>
+      </div>
+   </div>	
+	<!--about -->
+	<div class="heading">
+		<h1>About Us</h1>
+		<p>"Book Buddy"-The Library Mangement System </p>
+	</div>
+	<div class="container">
+		<section class="about">
+			<div class="about-image">
+				<img src="librd.jpeg">
+			</div>
+			<div class="about-content">
+				<h2>"The world is quite here"</h2>
+				<p>Book Buddy aims to enhance the efficiency of library management system. It provides an organised and user-friendly platform. It manages books,track lending,return transactions and also faciliate easy access to library resources. Readers can conveniently explore library resource,check availability and can borrow desired books. </p>
+				<!-- <a href="" class="read-more">Read More..</a> -->
+			</div>
+		</section>
+	</div>
+	<footer>
+		<p>Copyright © 2024 Library Management System. All rights reserved.</p>
+	</footer>
+</body>
+</html>

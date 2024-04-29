@@ -1,0 +1,39 @@
+body{
+    background:url(back7.jpg);
+    background-position-x:right ;
+    background-size: cover;
+}
+label {
+    display: block;
+    margin-top: 40px;
+    font-style: bold;
+    color:#2b679e;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 20px;
+    position: relative;
+    background-color: #2b679e;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 215px;
+    font-size: larger;
+  }
+  form {
+    width: 215px;
+    margin: 0 auto;
+  }
+  .Guide{
+    background-color: none;
+    color: rgb(243, 141, 231);
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }

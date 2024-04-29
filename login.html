@@ -1,0 +1,118 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookBuddy:Login</title>
+    <link rel="stylesheet" href="logg.css">
+    
+</head>
+<body>
+  <div class="Guide">
+    <h3>Guidelines</h3>
+    <ul>
+      <li>A member can keep only 3 books at a time.</li>
+      <li>Books should be returned before due date.</li>
+      <li>Due date is 14 days from request date.</li>
+      <li>After due date,fine will be charged.</li>
+    </ul>
+  </div>   
+    <div class='container'>
+        <section>
+          <input checked name='login' type='radio'>
+          <p>
+            Student Login
+          </p>
+          <form class="studentForm"> 
+            <input id="studentUsername" placeholder='Username' type='text'>
+            <input id="studentPassword" placeholder='Password' type='password' required>
+            <br>
+            <button id="studentSubmit" class="button">Submit</button>
+          </form>
+        </section>
+        <section>
+          <input name='login' type='radio'>
+          <p>
+            Faculty Login
+          </p>
+          <form class="facultyForm">
+            <input id='facultyUsername'placeholder='Username' type='text'>
+            <input id='facultyPassword' placeholder='Password' type='password'required><br>
+            <button id="facultySubmit" class="button">Submit</button>
+          </form>
+        </section>
+        <section>
+          <input name='login' type='radio'>
+          <p>
+            Admin Login
+          </p>
+          <form class="adminForm">
+            <input id='adminUsername' placeholder='Username' type='text'>
+            <input id='adminPassword' placeholder='Password' type='password' required><br>
+            <button id="adminSubmit" class="button">Submit</button>
+          </form>
+        </section>
+      </div>
+   
+</body>
+<script src="logg.js"></script>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookBuddy:Login</title>
+    <link rel="stylesheet" href="logg.css">
+    
+</head>
+<body>
+  <div class="Guide">
+    <h3>Guidelines</h3>
+    <ul>
+      <li>A member can keep only 3 books at a time.</li>
+      <li>Books should be returned before due date.</li>
+      <li>Due date is 14 days from request date.</li>
+      <li>After due date,fine will be charged.</li>
+    </ul>
+  </div>   
+    <div class='container'>
+        <section>
+          <input checked name='login' type='radio'>
+          <p>
+            Student Login
+          </p>
+          <form class="studentForm" action="login.php" method="post"> 
+            <input id="studentUsername" name="email" placeholder='Username' type='text'>
+            <input id="studentPassword" name="password" placeholder='Password' type='password' required>
+            <br>
+            <button id="studentSubmit" class="button" type="submit">Submit</button>
+          </form>
+        </section>
+        <section>
+          <input name='login' type='radio'>
+          <p>
+            Faculty Login
+          </p>
+          <form class="facultyForm" action="login.php" method="post">
+            <input id='facultyUsername' name="email" placeholder='Username' type='text'>
+            <input id='facultyPassword' name="password" placeholder='Password' type='password'required><br>
+            <button id="facultySubmit" class="button" type="submit">Submit</button>
+          </form>
+        </section>
+        <section>
+          <input name='login' type='radio'>
+          <p>
+            Admin Login
+          </p>
+          <form class="adminForm" action="login.php" method="post">
+            <input id='adminUsername' name="email" placeholder='Username' type='text'>
+            <input id='adminPassword' name="password" placeholder='Password' type='password' required><br>
+            <button id="adminSubmit" class="button" type="submit">Submit</button>
+          </form>
+        </section>
+      </div>
+   
+</body>
+<script src="logg.js"></script>
+</html>

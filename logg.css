@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.font, .container section input[type=text], .container section p, .container h1 {
+  color: #3b74df;
+  font-family: "Open Sans", sans-serif;
+}
+
+.transition, .container section input[type=radio]:checked ~ p, .container section input[type=text]:focus, .container section input[type=text], .container section p {
+  transition: all 0.25s ease;
+}
+
+.fullWidth, .container section input[type=radio], .container section {
+  width: 100%;
+}
+
+.container {
+  padding: 15px;
+  height: auto;
+  width: 400px;
+}
+.container h1 {
+  font-size: 1.4em;
+}
+.container section {
+  border-bottom: 1px solid rgba(150, 150, 200, 0.1);
+  overflow: hidden;
+  height: 200px;
+  padding: 0 10px;
+  position: relative;
+}
+.container section:last-child {
+  border: none;
+}
+.container section p {
+  height: 100%;
+  padding-top: 20%;
+  margin-bottom: 10px;
+}
+.container section input[type=submit] {
+  width: 28%;
+  padding: 8px 0;
+  margin-top: -6px;
+  background: none;
+  border: none;
+  border: 1px solid rgba(150, 150, 150, 0.35);
+}
+.container section input[type=text] {
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid rgba(150, 150, 150, 0.35);
+  box-shadow: none;
+}
+.container section input[type=text]:last-child {
+  margin-top: 6px;
+}
+.container section input[type=text]:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(100, 100, 100, 0.15);
+}
+.container section input[type=radio] {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+}
+.container section input[type=radio]:checked {
+  left: -1000000px;
+}
+.container section input[type=radio]:checked ~ p {
+  padding-top: 5%;
+  height: 25%;
+}
+body{
+    background: url(back6.png);
+    background-size: cover;
+    background-position-x:right;
+  }
+.button{
+  width: 120px;
+  font-weight: bolder;background-color: white;
+}
+.button:hover{
+  background-color: darkgray;
+}
+.Guide{
+  float: right;
+  background-color: none;
+  color: aliceblue;
+  width: 40%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}

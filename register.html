@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reg.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Buddy:Register</title>
+</head>
+<body>
+    <div class="Guide">
+        <h3>Guidelines</h3>
+        <ul>
+            <li>A member can keep only 3 books at a time.</li>
+            <li>Books should be returned before the due date.</li>
+            <li>The due date is 14 days from the request date.</li>
+            <li>After the due date, a fine will be charged.</li>
+        </ul>
+    </div>
+
+    <form action="register.php" method="post">
+        <label for="first_name">First Name</label><br/>
+        <input type="text" name="first_name" id="first_name" placeholder="First Name" required><br/>
+        <label for="last_name">Last Name</label><br/>
+        <input type="text" name="last_name" id="last_name" placeholder="Last Name" required><br/>
+        <label for="email">Email</label><br/>
+        <input type="email" id="email" name="email" placeholder="Email" required><br/>
+        <label for="dob">Date of Birth</label><br/>
+        <input type="date" id="dob" name="dob" required><br/>
+        <label for="password">Password</label><br/>
+        <input type="password" id="password" name="password" placeholder="Password" required><br/>
+        <label for="confirm_password">Confirm Password</label><br/>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required><br/>
+        <input type="submit" value="Submit"> 
+    </form>
+</body>
+</html>
